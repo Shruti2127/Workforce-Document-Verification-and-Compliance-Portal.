@@ -26,6 +26,7 @@ EC2 instances for isolated deployment environments
 IAM policies for role-based access
 CloudWatch and AWS Budgets for usage monitoring and cost tracking
 The project leverages the AWS Cloud Platform, with Python as the core backend language. AWS Lambda functions manage document verification workflows and authentication logic, while Amazon S3 securely stores uploaded files using pre-signed URLs. User authentication and session control are handled via Amazon Cognito. Notification workflows are implemented using Amazon SNS. For deployment and backend testing, Docker is used in combination with Amazon EC2. Infrastructure security and permissions are managed through AWS IAM, and system monitoring and budget tracking are performed using AWS CloudWatch and AWS Budgets. GitHub is used for version control and collaboration throughout the development cycle.
+
 ✅ Project Outcomes
 Delivered a fully functional cloud-based document verification system.
 Ensured security and scalability using AWS best practices.
